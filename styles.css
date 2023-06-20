@@ -1,1 +1,29 @@
 /* your code */
+/* thead{
+	background-color:#215A8E;
+	color:white;
+	border-radius:5px
+} */
+table{
+    column-gap: 40px;
+    border: solid lightgray 1px;
+    width: 100%;
+	
+}
+thead{
+	color:white;
+}
+tr {
+	
+    border-bottom: 1px solid #ccc;
+}
+th {
+	padding:10px;
+    text-align: left;    
+}
+td{
+	padding:10px;
+}
+tr:nth-child(even){
+	background-color:lightgray;
+}
